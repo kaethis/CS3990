@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!---------------------------------------------------------------
+              _          _                         _      __ ___
+             /_\   _____(_)__ _ _ _  _ __  ___ _ _| |_   /  \_  )
+            / _ \ (_-<_-< / _` | ' \| '  \/ -_) ' \  _| | () / /
+           /_/ \_\/__/__/_\__, |_||_|_|_|_\___|_||_\__|  \__/___|
+                           |___/
+-----------------------------------------------------------------
+Author:         Matt W. Martin, 4374851
+                kaethis@tasmantis.net
+
+Project:        CS3990, Assignment 02
+                HTML&CSS, Tree Branches Unlimited
+
+Date Issued:    20-Jan-2016
+Date Archived:  XX-XXX-XXXX
+
+File:           order.html
+------------------------------------------------------------------>
+
+
+<html>
+
+   <head>
+
+      <link rel="stylesheet" href="stylesheet.css" />
+
+      <title>Tree Branches Unlimited | Order</title>
+
+   </head>
+
+
+   <body>
+
+      <header>
+
+         <a href="index.html">
+
+            <img id="logoB" src="resources/logoB.png"
+                 alt="Tree Branches Unlimited"
+                 title="More branches than you can shake a stick at!" />
+
+         </a>
+
+      </header>
+
+
+      <ul class="navbar">
+
+         <li><a href="index.html">Home</a></li>
+
+         <li><a href="products.html">Products</a></li>
+
+         <li><a id="selected" href="order.html">Order</a></li>
+
+         <li><a href="index.html">Contact Us</a></li> 
+
+      </ul>
+
+      <div class="container">
+
+         <div class="article">
+
+            <h1>Items</h1>
+
+
+            <form class="items">
+
+               <ol id="items">
+
+               </ol>
+
+         </div>
+
+         <br />
+
+         <div class="article">
+
+            <h1>Place Order</h1>
+
+
+            <form class="order">
+
+               <ol class="order" id="info">
+
+                  <li>Given<br />
+                     <input type="text" name="firstname" />
+
+                  </li>
+
+                  <li>Surname<br />
+                     <input type="text" name="lastname" />
+
+                  </li>
+
+                  <li>Address<br />
+                     <input type="text" name="address" />
+
+                  </li>
+
+                  <li>City<br />
+                     <input type="text" name="city" />
+
+                  </li>
+
+                  <li>
+                     <select name="provinces" >
+
+                        <option value="ab">Alberta</option>
+                        <option value="bc">British Columbia</option>
+                        <option value="mb">Manitoba</option>
+                        <option value="nb">New Brunswick</option>
+                        <option value="nl">Newfoundland and Labrador</option>
+                        <option value="ns">Nova Scotia</option>
+                        <option value="on">Ontario</option>
+                        <option value="pe">Prince Edward Island</option>
+                        <option value="qc">Quebec</option>
+                        <option value="sk">Saskatchewan</option>
+
+                     </select>
+
+                  </li>
+
+               </ol>
+
+               <ol class="order" id="contact">
+
+                  <li>Home<br />
+                     <input type="tel" name="home" />
+
+                  </li>
+
+                  <li>Cell<br />
+                     <input type="tel" name="cell" />
+
+                  </li>
+
+                  <li>E-mail<br />
+                     <input type="email" name="email" />
+
+                  </li>
+
+                  <li>Subscribe to newsletter?<br />
+                     Yes<input type="checkbox" name="subyes" />
+                     No<input type="checkbox" name="subno" checked />
+
+                  </li>
+
+               </ol>
+
+               <ol class="order" id="comments">
+
+                  <li>Home<br />
+                     <input type="tel" name="home" />
+
+                  </li>
+
+               </ol>
+
+               <ul class="order" id="payment">
+
+                  <li>
+                     <input type="radio" name="mode" value="visa" checked /> Visa
+
+                  </li>
+
+                  <li>
+                     <input type="radio" name="mode" value="mc" /> MasterCard
+
+                  </li>
+
+                  <li>
+                     <input type="radio" name="mode" value="amex" /> Amex
+
+                  </li>
+
+                  <br />
+
+                  <li>
+                     <input type="text" name="ccnum" />
+
+                  </li>
+
+                  <li>
+                     <input type"text" name="ccsc" size="4" />
+
+                  </li>
+
+               </ul>
+
+               <input type="submit" value="Submit">
+
+            </form>
+
+         </div>
+
+      </div>
+
+
+      <footer>
+
+         Copyright &#169 TASMANTIS.NET<br />
+         <em>This website is for demonstrational purposes only.</em>
+
+      </footer>
+
+   </body>
+
+</html>

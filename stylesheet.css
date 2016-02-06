@@ -1,0 +1,259 @@
+/*---------------------------------------------------------------
+              _          _                         _      __ ___
+             /_\   _____(_)__ _ _ _  _ __  ___ _ _| |_   /  \_  )
+            / _ \ (_-<_-< / _` | ' \| '  \/ -_) ' \  _| | () / /
+           /_/ \_\/__/__/_\__, |_||_|_|_|_\___|_||_\__|  \__/___|
+                           |___/
+-----------------------------------------------------------------
+Author:         Matt W. Martin, 4374851
+                kaethis@tasmantis.net
+
+Project:        CS3990, Assignment 02
+                HTML&CSS, Tree Branches Unlimited
+
+Date Issued:    20-Jan-2016
+Date Archived:  XX-XXX-XXXX
+
+File:           stylesheet.css
+-----------------------------------------------------------------*/
+
+
+@font-face{
+
+	font-family: Bulletto;
+	src: url(resources/fonts/bulletto-killa/Bulletto_Killa.ttf);
+}
+
+@font-face{
+
+	font-family: "Betty Noir";
+	src: url(resources/fonts/betty-noir/bettynoir.ttf);
+}
+
+@font-face{
+
+	font-family: Parklane;
+	src: url(resources/fonts/parklane/ParkLaneNF.ttf);
+}
+
+body{
+
+	background-color: #171925;
+	color: #000000;
+	font-family: Helvetica;
+	font-weight: lighter;
+}
+
+header{
+
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+img#logoA{
+
+	height: 687px;
+	width: 781px;
+}
+
+img#logoB{
+
+	height: 287px;
+	width: 921px;
+}
+
+
+ul.navbar{
+
+	background: linear-gradient(#4B3E48, #4B3E48, #372B35);
+	box-shadow: 8px 8px 5px rgba(0, 0, 0, .3);
+	font-weight: bold;
+	font-size: larger;
+	border: 3px solid #FEFEFC;
+	border-radius: 20px;
+	width: 800px;
+	margin: auto;
+	margin-bottom: 25px;
+	padding: 0;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+ul.navbar li{
+
+	float: left;
+	font-family: Bulletto;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+}
+
+ul.navbar li a{
+
+	display: block;
+	color: #FEFEFC;
+	text-align: center;
+	padding: 10px 25px;
+	text-decoration: none;
+}
+
+ul.navbar li a#selected{
+
+	background-color: #635760;
+}
+
+ul.navbar li a:hover{
+
+	background-color: #808080;
+}
+
+
+form.order{
+
+	font-size: smaller;
+}
+
+
+ul.order{
+
+	list-style-type: none;
+}
+
+ul.order#payment{
+
+	clear: both;
+}
+
+ul.order li{
+
+	display: inline;
+	margin-right: 10px;
+}
+
+ol.order{
+
+	list-style-type: none;
+	float: left;
+}
+
+ol.order li{
+
+	margin-top: 10px;
+}
+
+ol.order#info{
+
+}
+
+ol.order#contact{
+
+}
+
+
+
+div.container{
+
+	width: 800px;
+	overflow: auto;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+div.article{
+
+	width: 97%;
+	min-height: 200px;
+	background: #FEFEFC;
+	border-radius: 20px;
+	box-shadow: 8px 8px 5px rgba(0, 0, 0, .3);
+	margin: 12px;
+	float: left;
+}
+
+div.article#about{
+
+	width: 32%;
+	height: 400px;
+}
+
+div.article#featured{
+
+	width: 62%;
+}
+
+
+div.article h1{
+
+	background: linear-gradient(#4B3E48, #4B3E48, #372B35);
+	color: #FEFEFC;
+	font-size: larger;
+	font-family: "Betty Noir";
+	font-weight: normal;
+	text-align: center;
+	border: 2px solid #FEFEFC;
+	border-radius: 20px;
+	margin: 0;
+	padding: 5px;
+}
+
+div.article p{
+
+	margin: 10px;
+}
+
+table{
+
+	margin: 10px;
+}
+
+table td>ol{
+
+	font-size: smaller;
+	list-style-type: circle;
+}
+
+table td>ol li{
+
+	margin-top: 10px;
+}
+
+td.image{
+
+	width: 200px;
+	height: 200px;
+}
+
+td.image>img{
+
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0 auto;
+}
+
+td.description{
+
+	width: 50%;
+}
+
+th{
+
+	background-color: #635760;
+	color: #FEFEFC;
+	font-size: normal;
+	font-family: "Betty Noir";
+	font-weight: normal;
+	text-align: center;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+
+footer{
+
+	color: #FEFEFC;
+	font-size: x-small;
+	text-align: center;
+	margin: 20px;
+	clear: both;
+}
